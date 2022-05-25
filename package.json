@@ -1,0 +1,37 @@
+{
+  "name": "tictactoev8",
+  "version": "0.1.0",
+  "description": "TicTactoe built on Next.js and Tauri, so it can be ran natively and on the web.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddhantMadhur/TicTacToeV8.git"
+  },
+  "author": "SiddhantMadhur",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SiddhantMadhur/TicTacToeV8/issues"
+  },
+  "homepage": "https://github.com/SiddhantMadhur/TicTacToeV8#readme",
+  "dependencies": {
+    "@tauri-apps/tauri": "^0.0.1-utility.19",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^17.0.35",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "next": "^12.1.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.7.2"
+  }
+}
